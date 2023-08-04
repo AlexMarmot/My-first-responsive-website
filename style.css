@@ -184,6 +184,71 @@ main .main_about{
     font-weight: 100;
 }
 
+.main_work{
+    text-align: center;
+    padding: 100px 0;
+}
+.main_work h1{
+    margin-bottom: 30px;
+}
+.main_work p{
+    margin-bottom: 175px;
+    color:#464646
+}
+.main_work img:hover{
+    opacity: 90%;
+}
+.contact_form{
+    padding: 100px 0 70px 0;
+}
+.contact_form h1, p{
+    text-align: center;
+}
+.contact_form h1{
+    color: #000;
+    margin-bottom: 30px;
+}
+.contact_wrapper{
+    width: 753px;
+    margin: 0 auto;
+    color: #464646;
+}
+form p{
+    text-align-last: left;
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-style: 20px;
+    margin-bottom: 30px;
+}
+input:first-of-type{
+    margin-right: 28px;
+}
+.form_inputs{
+    margin-top: 100px;
+    display: flex;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+    margin-top: 5px;
+}
+input, textarea{
+    border: 1px solid #999999;
+}
+.button_block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    color: #fff;
+    margin-right: 0;
+    margin-top: 20px;
+}
 
 
 
@@ -269,5 +334,15 @@ main .main_about{
     }
     .services_cards{
         grid-template-columns: auto;
+    }
+
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
     }
 }
